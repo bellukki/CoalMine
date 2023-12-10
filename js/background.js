@@ -30,6 +30,6 @@ const chosenImage = images[Math.floor(Math.random() * images.length)];
 
 const bgImage = document.createElement("img");
 
-bgImage.src = `/CoalMine/img/${chosenImage}`;
+bgImage.src = `/img/${chosenImage}`;
 
 document.body.prepend(bgImage);
