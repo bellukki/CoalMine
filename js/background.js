@@ -30,6 +30,6 @@ const chosenImage = images[Math.floor(Math.random() * images.length)];
 
 const bgImage = document.createElement("img");
 
-bgImage.src = `Javascript/MOMENTUM/img/${chosenImage}`;
+bgImage.src = `CoalMine/img/${chosenImage}`;
 
 document.body.prepend(bgImage);
