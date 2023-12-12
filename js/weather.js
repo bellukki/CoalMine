@@ -1,4 +1,4 @@
-const API_KEY = "ad3336bb889e49f6ffe961ecc0c44441";
+const API_KEY = config.apikey;
 const GGMSO = "material-symbols-outlined";
 
 function onGeoOK(position) {
